@@ -4,48 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My To-Do List.</title>
     <link rel="stylesheet" href="/style.css">
 </head>
-<body>
-    <header>
-        <h1 class="header">My To-Do List.</h1>
-    </header>
+<body id="main">
+    <div class="div1">
+        <h1 class="header">TO DO LIST.</h1>
+      
+        <form class="form">
+          <input class="input" type="text" placeholder="Add a task..." />
+        </form>
 
-    <div class="textandbutton">
-       <input class="input" type="text" placeholder="Add a task...">
-       <span class="button">Add</span>
-
-       <div class="select">
-        <select>
-            <option value="TO-DO">TO-DO</option>
-            <option value="Done">Done</option>
-            <option value="Undone">Undone</option>
-        </select>
-    </div>
-    </div>
-
-    <ul>
-        <li>Do my assignment.</li>
-        <li>Buy some groceries.</li>
-        <li>Read up on Javascript.</li>
-    </ul>
-
-    <div id="myDIV" class="header">
-        <h2>My To Do List</h2>
-        <input class="input" type="text" id="myInput" placeholder="Add a task...">
-        <span onclick="newElement()" class="button">Add</span>
+        
+<div>
+  <button class="addbutton">Add.</button>
+          <button class="clear d-none">Clear All.</button>
+</div>
+        <ul class="todo-list">
+          <li>
+            <p>finish my assignment.</p>
+            <button class=addbutton>Edit</button>
+            <button class=addbutton>Delete</button>
+          </li>
+          <li>
+            <p>finish my assignment.</p>
+            <button class=addbutton>Edit</button>
+            <button class=addbutton>Delete</button>
+          </li>
+          <li>
+            <p>finish my assignment.</p>
+            <button class=addbutton>Edit</button>
+            <button class=addbutton>Delete</button>
+          </li>
+          <li>
+            <p>finish my assignment.</p>
+            <button class=addbutton>Edit</button>
+            <button class=addbutton>Delete</button>
+          </li>
+          <li>
+            <p>finish my assignment.</p>
+            <button class=addbutton>Edit</button>
+            <button class=addbutton>Delete</button>
+          </li>
+          <li>
+            <p>finish my assignment.</p>
+            <button class=addbutton>Edit</button>
+            <button class=addbutton>Delete</button>
+          </li>
+          <li>
+            <p>finish my assignment.</p>
+            <button class=addbutton>Edit</button>
+            <button class=addbutton>Delete</button>
+          </li>
+          <li>
+            <p>finish my assignment.</p>
+            <button class=addbutton>Edit</button>
+            <button class=addbutton>Delete</button>
+          </li>
+          
+        </ol>
+        
       </div>
       
-      <ul id="myUL">
-        <li>Hit the gym</li>
-        <li class="checked">Pay bills</li>
-        <li>Meet George</li>
-        <li>Buy eggs</li>
-        <li>Read a book</li>
-        <li>Organize office</li>
-      </ul>
-
-    <script src="/script.js"></script>
+      <script src="/script.js"></script>
 </body>
 </html>
