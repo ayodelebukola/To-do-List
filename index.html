@@ -1,71 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My To-Do List.</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body id="main">
-    <div class="div1">
-        <h1 class="header">TO DO LIST.</h1>
-      
-        <form class="form">
-          <input class="input" type="text" placeholder="Add a task..." />
-        </form>
 
-        
-<div>
-  <button class="addbutton">Add.</button>
-          <button class="clear d-none">Clear All.</button>
-</div>
-        <ul class="todo-list">
-          <li>
-            <p>finish my assignment.</p>
-            <button class=addbutton>Edit</button>
-            <button class=addbutton>Delete</button>
-          </li>
-          <li>
-            <p>finish my assignment.</p>
-            <button class=addbutton>Edit</button>
-            <button class=addbutton>Delete</button>
-          </li>
-          <li>
-            <p>finish my assignment.</p>
-            <button class=addbutton>Edit</button>
-            <button class=addbutton>Delete</button>
-          </li>
-          <li>
-            <p>finish my assignment.</p>
-            <button class=addbutton>Edit</button>
-            <button class=addbutton>Delete</button>
-          </li>
-          <li>
-            <p>finish my assignment.</p>
-            <button class=addbutton>Edit</button>
-            <button class=addbutton>Delete</button>
-          </li>
-          <li>
-            <p>finish my assignment.</p>
-            <button class=addbutton>Edit</button>
-            <button class=addbutton>Delete</button>
-          </li>
-          <li>
-            <p>finish my assignment.</p>
-            <button class=addbutton>Edit</button>
-            <button class=addbutton>Delete</button>
-          </li>
-          <li>
-            <p>finish my assignment.</p>
-            <button class=addbutton>Edit</button>
-            <button class=addbutton>Delete</button>
-          </li>
-          
-        </ol>
-        
-      </div>
-      
-      <script src="/script.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My To-Do List.</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body id="main">
+
+  <div class="container">
+    <h1 class="header">My To-Do List.</h1>
+
+    <form class="form">
+      <input class="input" type="text" placeholder="Add a task..." id="new-task">
+      <button class="addbutton" type="submit">Add</button>
+    </form>
+    
+    <ul class="todo-list" id="task-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
